@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name= "viewport" content="width=device-width, initial-scale=1.0">
+<title>SNEAKER CENTRAL</title>
+<!--link to css-->
+<link rel="stylesheet" href="styles.css">
+<!--font link from google fonts-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body> 
+
+	<div class="header">
+	<h1> SNEAKER &#9865; CENTRAL</h1>
+<div class="container">
+ <div>
+	<div class="navbar">
+		<div class="logo">
+			<img src="thelogo.png" width="125px">
+	</div>		
+	<nav>
+		<ul id="menuItems">
+			<li><a href="">Home</a></li>
+			<li><a href="">Products</a></li>
+            <li><a href="">About</a></li>
+             <li><a href="">Account</a></li>
+		</ul>
+	</nav>
+	<img src="cartb.png" width="30px" height="30px">
+	<img src="menu.png" class="menu-icon" onclick="menutoggle()">
+</div>
+<div class="row">
+	<div class="col-2">
+		<h2>Give your wardrobe new style!</h2>
+	<p>Founded in 2020 by a team of sneaker lovers who have been keen to share their passion for sneakers to everyone around the globe, Sneaker Central is Afirca's largest sneaker consignment store for ordinary releases, rare collectibles, hard-to-find exclusives and the most sought-after streetwear items. Listed as Top 20 Worldwide Legit Site by Complex, we only import from authorized suppliers. Hence, our customers can be assured that everything we sell is 100% authentic and legit. </p>
+		<a href="" class="btn">Explore now &#10170;</a>
+	</div>
+    <div class="col-2">
+    	<img src="banner01.jpg">
+    </div>
+</div>
+</div>
+</div> 
+
+<!---featured categories--->
+   <div class="categories">
+   	<div class="small-container">
+   		<div class="row">
+   	         <div class="col-3">
+   	         	<img src="justdoit.jpg">
+   	         </div>
+   	         <div class="col-3">
+   	         	<img src="foamposite.jpg">
+   	         </div>
+   	         <div class="col-3">
+   	         	<img src="mickey.jpg">
+   	         </div>	
+   	</div>
+  </div>
+</div>
+
+<!---featured products--->
+   <div class="small-container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+             <div class="col-4">
+             	<!--converseimage-->
+             	<img src="ConverseFeng.jpg">
+             	<h4>Converse Feng</h4>
+             	<p>$160.00</p>
+             </div>
+             <!--yeezyimage-->
+             <div class="col-4">
+             	<img src="adidasYeezy.jpg">
+             	<h4>Adidas Yeezy Boost</h4>
+             	<p>$470.00</p>
+             </div>
+             <!--airforceskeleton-->
+             <div class="col-4">
+             	<img src="AirForceSkeleton.jpg">
+             	<h4>Air Force Skeleton</h4>
+             	<p>$200.00</p>
+             </div>
+             <!--jordan1navy-->
+             <div class="col-4">
+             	<img src="Jordan1Navy.jpg">
+             	<h4>Jordan 1 Navy</h4>
+             	<p>$240.00</p>
+             </div>
+             <!--jordanRetro-->
+             <div class="col-4">
+             	<img src="Jordan4Retro.jpg">
+             	<h4>Jordan 4 Retro</h4>
+             	<p>$220.00</p>
+             </div>
+             <!--starwarsimage-->
+             <div class="col-4">
+             	<img src="adidasStarWars.jpg">
+             	<h4>Adidas Star Wars Boost</h4>
+             	<p>$100.00</p>
+             </div>
+        </div>
+    </div>
+
+
+
+<!--inserting a link-->
+<a href="https://onpointfresh.com/complete-beginners-guide-sneakers/">Ultimate guide in selecting the perfect kicks</a>
+
+
+
+<!---brands-->
+  <div class="brands">
+  	  <div class="small-container">
+  	  	<div class="row">
+  	  		<div class="col-5">
+  	  			<img src="brand01.png">
+  	  		</div>
+  	  		<div class="col-5">
+  	  			<img src="brand02.png">
+  	  		</div>
+  	  		<div class="col-5">
+  	  			<img src="brand03.jpeg">
+  	  		</div>
+            <div class="col-5">
+  	  			<img src="brand04.png">
+  	  		</div>
+  	  		<div class="col-5">
+  	  			<img src="brand05.png">
+  	  		</div>
+  	  </div>
+  </div>
+</div>
+
+<!----footer---->
+
+<div class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="footer-col-1">
+				<h3>Download our App</h3>
+				<p>On Android and iOS.</p>
+				<div class="app-logo">
+					<img src="playstore02.png">
+					<img src="applestore01.png">
+				</div>
+			</div>
+			<div class="footer-col-2">
+				<img src="app01.png">
+				
+			</div>
+			<div class="footer-col-3">
+				<h3>Useful links</h3>
+				<ul>
+					<li>Coupons</li>
+                    <li>Blog post</li>
+                    <li>Return Policy</li>
+                    <li>Join affiliate</li>
+				</ul>
+			</div>
+			<div class="footer-col-4">
+				<h3>Follow us</h3>
+				<ul>
+					<li>Instagram</li>
+                    <li>Twitter</li>
+                    <li>Youtube</li>
+                    <li>Facebook</li>
+				</ul>
+			</div>
+		</div>
+		<hr>
+		<p class="copyright">Copyright 2020 - Sneaker Central</p>
+	</div>
+</div>
+<!----javascript for toggle menu---->
+<script>
+	var MenuItems = document.getElementById("MenuItems");
+
+	MenuItems.style.maxHeight = "0px";
+
+	function menutoggle(){
+		if(MenuItems.style.maxHeight == "0px";)
+		{
+			MenuItems.style.maxHeight = "200px";
+		}
+		else
+		{
+			MenuItems.style.maxHeight = "0px";
+		}
+	}
+</script>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title></title>
+</head>
+
+</body>
+</html>
+

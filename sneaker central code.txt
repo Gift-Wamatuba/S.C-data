@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SNEAKER CENTRAL</title>
+</head>jpg,png,gif
+<body>
+ 
+<h1>SNEAKER CENTRAL SHOE WEBSITE</h1>
+<h2>For all your sneaker needs</h2>
+<p>sneaker central is a website where all your sneaker needs are met.<br>Any type of sneaker you want we have</p>
+<br>
+<br>
+<a href="https://onpointfresh.com/complete-beginners-guide-sneakers/">A link to help guide you in selecting the perfect kicks</a>
+<br>
+<br>
+<p><img src="image.jpg" width="450" height="450"></p>
+
+</body>
+</html>
